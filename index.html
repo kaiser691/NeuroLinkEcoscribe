@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeuroLink Ecoscribe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-slate-50 text-slate-800">
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-4 sm:px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-xl sm:text-2xl font-bold text-blue-700">NeuroLink Ecoscribe</a>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-slate-700 hover:text-blue-600 focus:outline-none focus:text-blue-600" aria-label="Open main menu">
+                        <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="hidden md:flex md:items-center space-x-1">
+                    <a href="#features" class="text-slate-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Features</a>
+                    <a href="#impact" class="text-slate-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Impact</a>
+                    <a href="#vision" class="text-slate-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Vision</a>
+                    <a href="#contact" class="cta-button ml-2 text-sm">Learn More</a>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden mt-2 space-y-1">
+                <a href="#features" class="block text-slate-700 hover:text-blue-600 hover:bg-blue-50 px-3 py-2 rounded-md text-base font-medium">Features</a>
+                <a href="#impact" class="block text-slate-700 hover:text-blue-600 hover:bg-blue-50 px-3 py-2 rounded-md text-base font-medium">Impact</a>
+                <a href="#vision" class="block text-slate-700 hover:text-blue-600 hover:bg-blue-50 px-3 py-2 rounded-md text-base font-medium">Vision</a>
+                <a href="#contact" class="block cta-button w-full text-center mt-2 text-base">Learn More</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-bg py-12 md:py-20">
+        <div class="container mx-auto px-4 sm:px-6 text-center">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-800 mb-4 md:mb-6">
+                NeuroLink Ecoscribe: Bridging the Analog-Digital Divide, Sustainably.
+            </h1>
+            <p class="text-md sm:text-lg md:text-xl text-slate-700 mb-3 md:mb-4 max-w-3xl mx-auto">
+                A next-generation intelligent stylus revolutionizing note-taking, information management, and productivity.
+            </p>
+            <p class="text-sm sm:text-md text-slate-600 mb-6 md:mb-8 max-w-2xl mx-auto">
+                Experience an authentic writing feel with instant digitization, intelligent organization, and advanced features like translation and voice-to-text, all built with a deep commitment to ecological sustainability.
+            </p>
+            <img id="heroImage"
+                 src="smart_pen.png"
+                 alt="NeuroLink Ecoscribe Smart Pen"
+                 class="mx-auto rounded-lg shadow-xl mb-6 md:mb-8 w-full max-w-xs sm:max-w-sm md:max-w-md aspect-auto object-contain"
+                 onerror="this.src='https://placehold.co/600x350/cccccc/969696?text=Image+Not+Available'; this.onerror=null;">
+            <a href="#features" class="cta-button text-md md:text-lg px-6 py-3">Discover the Features</a>
+        </div>
+    </section>
+    <section id="features" class="py-12 md:py-20">
+        <div class="container mx-auto px-4 sm:px-6">
+            <h2 class="section-title text-center">Smart, Seamless, Sustainable, User-Focused</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                <div class="feature-card">
+                    <svg class="feature-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+                    <h3 class="text-lg sm:text-xl font-semibold mb-2 text-blue-700">Intelligent Capture & Processing</h3>
+                    <ul class="list-disc list-inside text-slate-600 space-y-1 text-xs sm:text-sm">
+                        <li>**Precision Transduction:** Faithful capture on any paper, offline storage.</li>
+                        <li>**Real-Time OCR:** Instant handwriting-to-editable text (multi-language).</li>
+                        <li>**Dynamic Translation:** Real-time translation (50+ languages).</li>
+                        <li>**Voice Annotation & Transcription:** Sync audio with notes, accurate voice-to-text.</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                     <svg class="feature-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    <h3 class="text-lg sm:text-xl font-semibold mb-2 text-blue-700">Seamless Integration & Productivity</h3>
+                     <ul class="list-disc list-inside text-slate-600 space-y-1 text-xs sm:text-sm">
+                        <li>**Cloud & App Sync:** Auto-sync with companion apps & major platforms.</li>
+                        <li>**Productivity Utilities:** Smart tagging, powerful search, calendar integration, collaboration.</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card">
+                    <svg class="feature-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0zM12 6V4M12 20v-2M4.929 4.929l1.414 1.414M17.657 17.657l1.414 1.414M4 12H2M22 12h-2M7.757 16.243l-1.414 1.414M16.243 7.757l-1.414 1.414"></path><path d="M12 18a6 6 0 100-12 6 6 0 000 12z" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill="#a5f3fc" opacity="0.5"></path><path d="M8.5 11.5S9.5 13 12 13s3.5-1.5 3.5-1.5" stroke="#0284c7" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg>
+                    <h3 class="text-lg sm:text-xl font-semibold mb-2 text-blue-700">Sustainable & User-Centric</h3>
+                     <ul class="list-disc list-inside text-slate-600 space-y-1 text-xs sm:text-sm">
+                        <li>**Eco-Friendly Materials:** Recycled plastics/aluminum, biodegradable packaging.</li>
+                        <li>**Energy Efficient:** Extended battery life, USB-C charging.</li>
+                        <li>**Ergonomic & Intuitive:** Comfortable design, integrated display, haptic feedback, shortcuts.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="impact" class="bg-sky-100 py-12 md:py-20">
+        <div class="container mx-auto px-4 sm:px-6">
+            <h2 class="section-title text-center">Addressing Real Needs in a Growing Market</h2>
+            <div class="grid md:grid-cols-2 gap-8 md:gap-10 items-center">
+                <div>
+                    <h3 class="text-xl sm:text-2xl font-semibold mb-3 md:mb-4 text-blue-700">Market Context</h3>
+                    <ul class="benefit-list text-slate-700 space-y-1 sm:space-y-2 text-sm sm:text-base">
+                        <li>Booming Digital Stylus & EdTech markets.</li>
+                        <li>Increasing consumer demand for sustainable and intelligent electronics.</li>
+                        <li>Cognitive benefits of handwriting are well-documented.</li>
+                    </ul>
+                     <img id="marketGrowthImage"
+                          src="markgrow.png"
+                          alt="Market Growth Chart"
+                          class="mt-4 md:mt-6 rounded-lg shadow-lg w-full aspect-[500/280] object-cover"
+                          onerror="this.src='https://placehold.co/500x280/cccccc/969696?text=Chart+Not+Available'; this.onerror=null;">
+                </div>
+                <div>
+                    <h3 class="text-xl sm:text-2xl font-semibold mb-3 md:mb-4 text-blue-700">Key Beneficiaries</h3>
+                    <ul class="benefit-list text-slate-700 space-y-1 sm:space-y-2 text-sm sm:text-base">
+                        <li>**Students & Researchers:** Enhanced learning, organization, and research.</li>
+                        <li>**Professionals:** Streamlined workflows, secure digitization, improved collaboration.</li>
+                        <li>**Eco-Conscious Consumers:** A product aligned with their values.</li>
+                        <li>**Language Learners & Travelers:** Powerful communication and learning tool.</li>
+                        <li>**Users with Specific Needs (e.g., Dysgraphia, ADHD):** Accessible and supportive technology.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="vision" class="py-12 md:py-20 text-center">
+        <div class="container mx-auto px-4 sm:px-6">
+            <img id="logoImage"
+                 src="logo.png" alt="NeuroLink Ecoscribe Neural Tree Logo" class="mx-auto rounded-full shadow-lg mb-6 md:mb-8 w-24 h-24 md:w-32 md:h-32 aspect-square object-contain bg-black" onerror="this.src='https://placehold.co/120x120/cccccc/969696?text=Logo+N/A'; this.onerror=null;">
+            <h2 class="section-title">NeuroLink Ecoscribe: Redefining Productivity & Sustainability</h2>
+            <p class="text-md sm:text-lg text-slate-700 mb-6 max-w-3xl mx-auto">
+                Our vision is to provide a tool that not only unites analog intuition with digital power but also champions environmental responsibility in technology. The NeuroLink Ecoscribe addresses diverse user needs in education, professional settings, and personal productivity, contributing to a more efficient and sustainable future.
+            </p>
+            <a href="#contact" class="cta-button text-md md:text-lg px-6 py-3">Join Our Journey</a>
+        </div>
+    </section>
+    <footer id="contact" class="footer-bg py-10 md:py-12">
+        <div class="container mx-auto px-4 sm:px-6 text-center">
+            <h3 class="text-xl sm:text-2xl font-semibold mb-3 md:mb-4">Interested in NeuroLink Ecoscribe?</h3>
+            <p class="mb-5 md:mb-6 max-w-xl mx-auto text-sm sm:text-base">
+                Stay updated on our progress, release dates, and how you can be one of the first to experience the future of note-taking.
+            </p>
+            <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-2 sm:gap-3">
+                <input type="email" placeholder="Enter your email" class="flex-grow p-2 sm:p-3 rounded-md text-slate-800 focus:ring-2 focus:ring-sky-300 outline-none text-sm sm:text-base" required>
+                <button type="submit" class="cta-button bg-sky-400 hover:bg-sky-500 p-2 sm:p-3 text-sm sm:text-base">Subscribe</button>
+            </form>
+            <div class="mt-8 md:mt-10 text-xs sm:text-sm text-sky-200">
+                <p>&copy; <span id="currentYear"></span> NeuroLink Ecoscribe. All rights reserved.</p>
+                <p class="mt-1">A conceptual project by Kaiser B. Acosta, Jan Rolyn Morales, Ren Ronan Grabillo, Ronald N. Red (STI College Legazpi).</p>
+                <p class="mt-1">Website designed for illustrative purposes.</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        async function loadConceptualImages() {
+            const imagesToLoadConfig = []; 
+            for (const imgConfig of imagesToLoadConfig) {
+                const imageElement = document.getElementById(imgConfig.id);
+                if (imageElement) {
+                }
+            }
+        }
+        document.addEventListener('DOMContentLoaded', loadConceptualImages);
+    </script>
+</body>
+</html>
